@@ -47,11 +47,11 @@ remainder1(10,4)
 // 4.Using the variables you created in the previous step, output the results
 // of the division in the following format: “num1 / num2 = x remainder y.” HINT: Backticks
 
-let quotient = Math.floor(num1 / num2);
-let remainder = num1 % num2;
+
 
 function remainder2(num1, num2){
-    
+let quotient = Math.floor(num1 / num2);
+let remainder = num1 % num2;
     console.log(`${num1} / ${num2} = ${quotient} remainder ${remainder}`);
 }
 
@@ -59,10 +59,45 @@ remainder2(10,4);
 
 // B. Task 2:Data Types
 // 1. Define the following data types with your own contents[ 'integer', 'decimal', 'string', 'array'(minimum: 3 items), 'Object'(minimum: 4 values)]
+
+
+
+let array = [7, 7.7, 'Rojo'];
+
+let person = {
+    firstName: 'Rojo',
+    age: 22,
+    height: 6.0,
+    eyeColor: 'brown'
+}
 // 2. Once you’ve created the variables, display them to the console
+
+    console.log(array)
+    console.log(person)
+
 // 3. Use the ‘typeof’ function to check each variable
+
+console.log(typeof array[0]);
+console.log(typeof array[1]);
+console.log(typeof array[2]);
+
+console.log(typeof person.firstName)
+console.log(typeof person.age)
+console.log(typeof person.height)
+console.log(typeof person.eyeColor)
+
+
 // 4. Create an array with numbers and strings. Comment what data type you expect this tobe. Then use the ‘typeof’ function on this array
+
+let array1 = [7, 'Rojo']
+
+console.log(`This is a number ${typeof array1[0]}`)
+console.log(`This is a string ${typeof array1[1]}`)
 // 5. Create a null variable and an undefined variable
+
+let me = null;
+
+let ib;
 
 // ***********C. Task 3. functions and contional statements************
 // N.B. READ WITH UNDERSTANDING!!!
